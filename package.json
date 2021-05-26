@@ -1,0 +1,30 @@
+{
+  "name": "safelunch",
+  "version": "1.0.0",
+  "description": "smart-contracts for Safelunch",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test ./test/PreSaleTest.js",
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./flattern"
+  },
+  "author": "Peezebit (peezenut@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "3.4",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^8.2.0",
+    "global": "^4.4.0",
+    "openzeppelin-solidity": "^4.0.0",
+    "truffle": "^5.3.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.3.4",
+    "sol-merger": "^3.1.0"
+  }
+}
